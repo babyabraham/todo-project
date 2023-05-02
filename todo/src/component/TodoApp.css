@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color: #056679;
+    font-family: sans-serif;
+}
+.todo-container{
+    width:350px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #ababab;
+}
+.input-section{
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+}
+input::placeholder{
+    color: silver;
+}
+ul{
+    
+    text-align: right;
+    padding: 0;
+
+}
+ul li{
+    list-style: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: grey;
+    display: flex;
+    align-items: center;
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
